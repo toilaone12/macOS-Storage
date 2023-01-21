@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CommentFeedBack"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bgBottomNavigation"
+        android:id="@+id/tbComment"></androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/radius_img"
+            android:src="@drawable/news"
+            android:layout_marginRight="8dp"
+            android:id="@+id/imgCommentBlog"
+            android:layout_marginBottom="20dp">
+
+        </ImageButton>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="ShopeeVN"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto"
+                android:id="@+id/txtNameComment">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDescComment"
+                android:fontFamily="@font/roboto"
+                android:textSize="14dp"
+                android:textColor="#555"
+                android:text="aaaaaaaaaa">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:id="@+id/rcyComment">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <ImageButton
+
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imgNameComment"
+            android:background="@drawable/radius_img"
+            android:src="@drawable/news"
+            android:layout_marginRight="5dp">
+
+        </ImageButton>
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="32dp"
+            android:hint="Thêm bình luận..."
+            android:background="@drawable/border_comment"
+            android:paddingLeft="10dp"
+            android:textSize="13dp"
+            android:id="@+id/edtAddComment">
+
+        </EditText>
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="32dp"
+            android:src="@drawable/send_comment"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnAddComment">
+
+        </ImageView>
+    </LinearLayout>
+</LinearLayout>

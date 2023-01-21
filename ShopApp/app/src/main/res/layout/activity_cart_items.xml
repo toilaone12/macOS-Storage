@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CartCheckOut">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imgCart"
+            android:layout_width="125dp"
+            android:layout_height="150dp"
+            android:src="@drawable/smartphone">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNameCart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="XiaoMi Note 11 6GB RAM/128GB HDD nguyên siu"
+                android:textColor="#666"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtPriceCart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Giá: 9.899.000đ"
+                android:textAlignment="center"
+                android:textColor="#ee4d2d">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imgPlus"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@drawable/customborder"
+                    android:src="@drawable/cong">
+
+                </ImageView>
+
+                <EditText
+                    android:id="@+id/edtQuantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:background="@drawable/customborder"
+                    android:drawableBottom="@drawable/customborder"
+                    android:inputType="number"
+                    android:text="2"
+                    android:textAlignment="center">
+
+                </EditText>
+
+                <ImageView
+                    android:id="@+id/imgMinus"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/customborder"
+                    android:src="@drawable/tru">
+
+                </ImageView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

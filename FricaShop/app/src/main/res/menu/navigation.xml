@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nvHome"
+        android:icon="@drawable/home"
+        android:title="Trang chủ" />
+
+    <item
+        android:id="@+id/nvFeedBack"
+        android:icon="@drawable/feedback"
+        android:title="Frica Feed" />
+
+    <item
+        android:id="@+id/nvNotification"
+        android:icon="@drawable/notification"
+        android:title="Liên hệ" />
+    <item
+        android:id="@+id/nvInformation"
+        android:icon="@drawable/info"
+        android:title="Thông tin">
+
+    </item>
+
+    <item
+        android:id="@+id/nvPerson"
+        android:icon="@drawable/person"
+        android:title="@string/title_profile" />
+</menu>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CheckPurchaseInfo"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/tbPurchase"
+        android:background="@color/bgBottomNavigation">
+
+    </androidx.appcompat.widget.Toolbar>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_blog"
+        android:layout_marginTop="10dp">
+        <TableRow android:layout_height="30dp"
+            android:background="@drawable/border_blog">
+            <TextView android:text="STT"
+                android:textColor="#000"
+                android:layout_marginLeft="2dp"
+                android:textSize="15dp"
+                >
+
+            </TextView>
+            <TextView android:text="Hình ảnh"
+                android:textColor="#000"
+                android:layout_marginLeft="8dp"
+                android:textSize="15dp">
+
+            </TextView>
+            <TextView android:text="Tên sản phẩm"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:textColor="#000">
+
+            </TextView>
+            <TextView android:text="Số lượng"
+                android:layout_marginLeft="15dp"
+                android:textSize="15dp"
+                android:textColor="#000">
+
+            </TextView>
+            <TextView android:text="Giá sản phẩm"
+                android:layout_marginLeft="11dp"
+                android:textSize="15dp"
+                android:textColor="#000">
+
+            </TextView>
+        </TableRow>
+        <TableRow>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcyPurchase"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="3dp"
+                android:layout_span="5"
+                android:layout_marginRight="-30dp"
+                android:background="@drawable/border_blog"></androidx.recyclerview.widget.RecyclerView>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_span="5"
+                android:textColor="#000"
+                android:text="Tên khách hàng: "
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txtNamePersonPurchase"
+                android:textSize="15dp">
+
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_span="5"
+                android:textColor="#000"
+                android:text="Số điện thoại khách hàng: "
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txtPhonePersonPurchase"
+                android:textSize="15dp">
+
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_span="5"
+                android:textColor="#000"
+                android:text="Email khách hàng: "
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txtEmailPersonPurchase"
+                android:textSize="15dp">
+
+            </TextView>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_span="5"
+                android:textColor="#000"
+                android:text="Phương thức thanh toán: "
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txtCreditPersonPurchase"
+                android:textSize="15dp">
+
+            </TextView>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_span="5"
+                android:textColor="#000"
+                android:text="Địa chỉ khách hàng: "
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txtAddressPersonPurchase"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp">
+
+            </TextView>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Chấp nhận"
+        android:backgroundTint="@color/bgBottomNavigation"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnAcceptPurchase">
+
+    </Button>
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sqlitedemo.com.example.sqlite.AddBookActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgAnhSach"
+            >
+
+        </ImageView>
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Lấy ảnh"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:id="@+id/btnLayAnh">-->
+
+<!--        </Button>-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thử ảnh"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnThuAnh">
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quét mã QR CODE"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/btnQuetMa">
+
+        </Button>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMaSach"
+        android:hint="Nhập mã trang"
+        android:inputType="number"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTenSach"
+        android:hint="Nhập tên sách"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtSoTrang"
+        android:hint="Nhập số trang"
+        android:inputType="number"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtGiaSach"
+        android:hint="Nhập giá sách"
+        android:inputType="number"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMoTa"
+        android:hint="Nhập mô tả thông tin sách"
+        android:inputType="text"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btnThemSach"
+        android:text="Thêm thông tin">
+
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimaryDark"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:backgroundTint="#01ee92">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/border_image"
+        android:id="@+id/imgPersonal"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNamePersonal"
+        android:text="Kiều Đặng Bảo Sơn"
+        android:textColor="#333"
+        android:fontFamily="@font/roboto_light"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp">
+
+    </TextView>
+
+</LinearLayout>

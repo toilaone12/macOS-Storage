@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.PostStatus"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/tbPostStatus"
+        android:background="@color/bgBottomNavigation"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/imgAnhPost">
+
+    </ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#fff"
+        android:id="@+id/edtTitlePost"
+        android:hint="Mô tả thông tin sản phầm hoặc thông báo về tình hình mới nhất"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:gravity="start|top"
+        android:layout_marginTop="10dp">
+    </EditText>
+</LinearLayout>

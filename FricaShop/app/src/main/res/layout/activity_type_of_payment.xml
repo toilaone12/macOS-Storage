@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llClickPayment">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imgPayment"
+            android:src="@drawable/buy_for_cart"
+            >
+
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thanh toán khi nhận hàng"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:textColor="#000"
+                android:id="@+id/txtNamePayment">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Miễn phí vận chuyển trong bán kinh 3km. Trong trường hợp hơn 3km sẽ tính 12.000đ/km"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:textColor="#666"
+                android:id="@+id/txtDescPayment">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

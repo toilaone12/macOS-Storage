@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.sqlite.MainActivity"
+    android:weightSum="100"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imgImage"
+        android:layout_weight="20">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_weight="80">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNameProduct"
+            android:text="Máy tính MSI"
+            android:paddingBottom="10dp"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPageProduct"
+            android:text="Số trang: 30 trang"
+            android:paddingBottom="10dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPriceProduct"
+            android:text="Giá: 2000000đ"
+            android:paddingBottom="10dp"
+            android:textSize="15dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtDescProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đây là thông báo"
+            android:textSize="25dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:src="@android:drawable/ic_menu_edit"
+            android:id="@+id/imgEdit">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:id="@+id/imgDelete">
+
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>

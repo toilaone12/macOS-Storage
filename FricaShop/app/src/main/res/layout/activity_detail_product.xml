@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DetailProduct"
+    android:orientation="vertical"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2196F3"
+        android:id="@+id/tbDetailProduct"
+        ></androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgDetailProduct"
+            android:layout_margin="10dp"
+            android:src="@drawable/feedback">
+
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNameDetail"
+                android:textAlignment="center"
+                android:text="Laptop ASUS Gaming RTX2070Ti/16GB RAM/1TB SSD/2B HDD"
+                android:textSize="18dp"
+                android:textColor="#333"
+                android:layout_margin="5dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPriceDetail"
+                android:text="Giá: 20.999.000đ"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textSize="19dp"
+                android:textColor="#ee4d2d">
+
+            </TextView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:background="@drawable/borderdetail"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:id="@+id/edtQuantityDetail">
+
+            </EditText>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Thêm vào giỏ hàng"
+                android:id="@+id/btnAddCart"
+                android:backgroundTint="@color/bgBottomNavigation">
+
+            </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+    <fragment
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:id="@+id/youtube_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin về sản phẩm"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:textColor="#ee4d2d"
+        android:fontFamily="@font/roboto_light">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDescDetail"
+        android:text="Thiết kế gọn gàng, hiện đại
+Laptop Asus Vivobook Pro 14 OLED sở hữu ngoại hình cực thanh lịch và sang trọng với logo ASUS in 3D độc đáo góp phần tạo dấu ấn riêng cho máy. Các đường viền cạnh được cắt vát tỉ mỉ, tinh tế, tổng thể tạo nên một thiết kế cuốn hút mọi ánh nhìn nhờ phủ sắc xanh đen huyền bí, phù hợp với cả phái mạnh và phái đẹp.
+Với trọng lượng chỉ khoảng 1.4kg và kích thước 31.74 x 22.85 x 1.92 ~ 1.93 cm, tổng thể chiếc laptop này nhà Asus khá gọn gàng và mỏng nhẹ. Chính vì vậy mà bạn có thể dễ dàng bỏ máy vào balo, túi xách đến bất cứ đâu mà không hề nặng nhọc.
+Tuy mỏng nhẹ nhưng laptop Asus Vivobook Pro 14 OLED lại có độ bền cực cao với lớp vỏ kim loại mang đến khả năng chống sốc tốt, chống chịu các tác động của ngoại lực tốt, bản lề và khung máy được gia cố chắc chắn. Đây chắc chắn sẽ là người bạn đồng hành lý tưởng cho bạn trong suốt nhiều năm ổn định.
+Bên cạnh đó, em laptop này cũng được trang bị bộ bàn phím với hành trình phím hợp lý, các phím độ nảy tốt tạo cảm giác gõ êm. Bạn sẽ không phải sử dụng quá nhiều lực để gõ phím, vì thế dù có phải soạn thảo văn bản trong nhiều giờ cũng không gây mỏi tay. Đèn nền đơn sắc của bàn phím cũng sẽ hỗ trợ bạn làm việc thuận tiện hơn vào buổi đêm hoặc môi trường ánh sáng yếu. Phần touchpad nhạy bén, đem đến cho người dùng trải nghiệm mượt mà khi sử dụng.
+Bạn hoàn toàn có thể kết nối chiếc laptop của mình với các thiết bị ngoại vi thuận lợi. Máy tính Asus Vivobook Pro 14 OLED có đầy đủ các cổng kết nối cần thiết dành cho bạn, bao gồm: 1 cổng  USB 3.2 Gen 1 Type-A, 1 cổng USB 3.2 Gen 1 Type-C, 2 cổng USB 2.0 Type-A, 1 cổng HDMI 1.4 và 1 jack cắm tai nghe 3.5mm tiện lợi.
+Bên cạnh đó, tính năng cảm biến vân tay tích hợp ngay trên nút nguồn cho bạn khả năng mở khóa máy nhanh chóng chỉ với một chạm, bạn không còn phải tốn nhiều thời gian ghi nhớ mật khẩu và đăng nhập kiểu truyền thống hàng ngày nữa."
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:textColor="#666"
+        >
+
+    </TextView>
+</LinearLayout>

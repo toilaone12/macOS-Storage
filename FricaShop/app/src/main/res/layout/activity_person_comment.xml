@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llClickComment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/radius_img"
+            android:src="@drawable/news"
+            android:layout_marginRight="8dp"
+            android:id="@+id/imgGetComment">
+
+        </ImageButton>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border_fb"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:text="ShopeeVN"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:id="@+id/txtGetNameComment"
+                    android:layout_marginRight="10dp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtGetDescComment"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 giờ"
+                android:padding="3dp"
+                android:textColor="#555"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/txtTimeComment">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSuaComment"
+                android:text="Sửa"
+                android:padding="3dp"
+                android:textColor="#333"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtXoaComment"
+                android:text="Xóa"
+                android:padding="3dp"
+                android:textColor="#333"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp">
+
+            </TextView>
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

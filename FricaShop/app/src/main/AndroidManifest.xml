@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fricashop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FricaShop"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".view.UpdateFeedBack"
+            android:exported="false" />
+        <activity
+            android:name=".view.UpdateComment"
+            android:exported="false" />
+        <activity
+            android:name=".view.AddressFrica"
+            android:exported="false" />
+        <activity
+            android:name=".view.CommentFeedBack"
+            android:exported="false" />
+        <activity
+            android:name=".view.NotificationPurchase"
+            android:exported="false" />
+        <activity
+            android:name=".view.CheckPurchaseInfo"
+            android:exported="false" />
+        <activity
+            android:name=".view.TypePayment"
+            android:exported="false" />
+        <activity
+            android:name=".view.CheckInfoPerson"
+            android:exported="false" />
+        <activity
+            android:name=".view.RegisterForm"
+            android:exported="false" />
+        <activity
+            android:name=".view.VerifyOTP"
+            android:exported="false" />
+        <activity
+            android:name=".view.Register"
+            android:exported="false" />
+        <activity
+            android:name=".view.PostStatus"
+            android:exported="false" />
+        <activity
+            android:name=".view.FeedBack"
+            android:exported="false" />
+        <activity
+            android:name=".view.ContactInformation"
+            android:exported="false" />
+        <activity
+            android:name=".view.CartCheckOut"
+            android:exported="false" />
+        <activity
+            android:name=".view.DetailProduct"
+            android:exported="false" />
+        <activity
+            android:name=".view.ChangeEmail"
+            android:exported="false" />
+        <activity
+            android:name=".view.ChangeFullName"
+            android:exported="false" />
+        <activity
+            android:name=".view.ComputerProduct"
+            android:exported="false" />
+        <activity
+            android:name=".view.ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".view.Personal"
+            android:exported="false" />
+        <activity
+            android:name=".view.Login"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDIqbtuoHxrRKNLu2Faj2Rlp8PNoWZLQKM" />
+    </application>
+
+</manifest>

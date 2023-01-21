@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:id="@+id/drawerLayout"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:id="@+id/tbHomePage"
+                android:background="#2196F3">
+
+            </androidx.appcompat.widget.Toolbar>
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:id="@+id/svHomePage"
+                android:fillViewport="true"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="635dp"
+                android:orientation="vertical">
+                <ViewFlipper
+                    android:id="@+id/vfSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                </ViewFlipper>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rcyCategory">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Khóa học bán chạy nhất"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="#ee4d2d"
+                                android:padding="5dp"
+                                android:textSize="20dp">
+
+                            </TextView>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+                                    <androidx.recyclerview.widget.RecyclerView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="390dp"
+                                        android:id="@+id/rcyHomePage"
+                                        android:nestedScrollingEnabled="true"
+                                        >
+
+                                    </androidx.recyclerview.widget.RecyclerView>
+                                </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Khóa học giá tầm thấp"
+                                android:textColor="#ee4d2d"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:layout_marginBottom="10dp">
+
+                            </TextView>
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:layout_width="match_parent"
+                                android:layout_height="390dp"
+                                android:id="@+id/rcyLowCourses"
+                                android:nestedScrollingEnabled="true"
+                                >
+
+                            </androidx.recyclerview.widget.RecyclerView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Khóa học giá tầm trung"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="#ee4d2d"
+                                android:padding="5dp"
+                                android:textSize="20dp">
+
+                            </TextView>
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:layout_width="match_parent"
+                                android:layout_height="390dp"
+                                android:id="@+id/rcyPhoneCate"
+                                android:nestedScrollingEnabled="true"
+                                >
+
+                            </androidx.recyclerview.widget.RecyclerView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+            </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cl"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fl"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        </FrameLayout>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bnvBar"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/navigation"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:itemBackground="@color/bgBottomNavigation"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_gravity="bottom">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ContactInformation"
+    android:background="@drawable/fricashop"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/tbContact"
+        android:background="@color/bgBottomNavigation">
+
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liên hệ với chúng tôi"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:background="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/person_contact"
+            >
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên: Kiều Đặng Bảo Sơn"
+            android:id="@+id/txtNameContact"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textAlignment="center">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/email_contact"
+            >
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: kieudangbaoson3005@gmail.com"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/txtEmailContact"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textAlignment="center">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/phone_contact"
+            >
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Điện thoại: 0399569112"
+            android:id="@+id/txtPhoneContact"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp">
+
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "132783080684",
+    "project_id": "like-and-comment-post",
+    "storage_bucket": "like-and-comment-post.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132783080684:android:72f5a48b9476d21fd8d1c9",
+        "android_client_info": {
+          "package_name": "com.example.fricashop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132783080684-6tqusniatkglc0ej3o09mgrjipvqkb4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fricashop",
+            "certificate_hash": "b47ce56c2c0af32997a156fb22ad4c36f4d2bd4f"
+          }
+        },
+        {
+          "client_id": "132783080684-hbco1htnh0iub2qc026dfm0utks6e62j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE5AG2epAYXTB6p6LNWLn39HI0vaMTZS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132783080684-hbco1htnh0iub2qc026dfm0utks6e62j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

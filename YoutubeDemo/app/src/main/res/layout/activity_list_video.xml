@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="15dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/llClickVideoItems">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="75.96dp"
+        android:id="@+id/imgVideo"
+        android:layout_marginRight="15dp">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNameVideo"
+            android:text="Bích Phương - Một cú lừa Bích Phương - Một cú lừa"
+            android:textColor="#030303"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginBottom="8dp"
+            android:textSize="19dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DJ TILO"
+            android:textColor="#606060"
+            android:textSize="15dp"
+            android:id="@+id/txtAuthorVideo">
+
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

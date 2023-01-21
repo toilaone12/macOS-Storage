@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#2196F3"
+        android:id="@+id/tbTitle"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcyGioHang"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTongSanPham"
+        android:text="Tổng tiền: 55.000.000đ"
+        android:textAlignment="textStart"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ee4d2d">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnThanhToan"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="60dp"
+            android:text="Thanh toán sản phẩm"
+            android:backgroundTint="@color/bgBottomNavigation"
+
+            >
+
+        </Button>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Tiếp tục mua hàng"
+            android:id="@+id/btnTiepTuc"
+            android:backgroundTint="@color/bgBottomNavigation"
+            >
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

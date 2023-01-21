@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/drawable/borderdetail.xml" value="0.3974358974358974" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/drawable/button_background_color.xml" value="0.3974358974358974" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/drawable/custom_button.xml" value="0.3974358974358974" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/drawable/customborder.xml" value="0.3974358974358974" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/drawable/radius.xml" value="0.3974358974358974" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/drawable/radius_list.xml" value="0.3974358974358974" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_cart_check_out.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_cart_items.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_detail_product.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_home_page.xml" value="0.36574074074074076" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_info_personal.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_laptop_view.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_menu_adapter.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_product_view.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_rcy_cart_checkout.xml" value="0.33" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_rcy_home_page.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_rcy_product_items.xml" value="0.33" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_register.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_register_form.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_test.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/activity_verify_otp.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/app_bar_home_page.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/content_home_page.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/fragment_gallery.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/fragment_home.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/nav_header.xml" value="0.25" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/layout/nav_header_home_page.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/menu/border_image.xml" value="0.2140625" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/menu/dimens.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/menu/home_page.xml" value="0.3875" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/menu/menu_cart.xml" value="0.7724609375" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/menu/nav_header.xml" value="0.2140625" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/menu/navigation_view.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/menu/navigationview.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Hi/IdeaProjects/ShopApp/app/src/main/res/menu/style.xml" value="0.21927083333333333" />
+        <entry key="app/src/main/res/drawable-v24/border_image.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/borderdetail.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/button_background_color.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/custom_button.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/customborder.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/radius.xml" value="0.135" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.135" />
+        <entry key="app/src/main/res/font/roboto_light.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_cart_items.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_detail_product.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/activity_info_personal.xml" value="0.30512820512820515" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/activity_menu_adapter.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/activity_rcy_cart_checkout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_rcy_home_page.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.20925925925925926" />
+        <entry key="app/src/main/res/layout/activity_register_form.xml" value="0.30512820512820515" />
+        <entry key="app/src/main/res/layout/activity_verify_otp.xml" value="0.30512820512820515" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

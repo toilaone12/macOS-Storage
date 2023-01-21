@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/radius"
+    android:elevation="8dp"
+    android:id="@+id/llClick">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/imgProduct"
+        android:src="@drawable/mayanh">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNameProduct"
+            android:textSize="17dp"
+            android:text="Máy ảnh Sony 360 nét căng đét mượt"
+            android:textColor="#000"
+            android:layout_marginBottom="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giá: 25.899.000đ"
+            android:textColor="#ee4d2d"
+            android:textSize="16dp"
+            android:fontFamily="@font/roboto_light"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/txtPriceProduct"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtDescProduct"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Sản phẩm tốt chất lượng tốt, đáng để trải nghiệm"
+            android:textColor="#ccc"
+            android:textSize="15dp">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>
